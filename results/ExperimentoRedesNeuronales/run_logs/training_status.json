@@ -1,0 +1,23 @@
+{
+    "AgentActions": {
+        "checkpoints": [
+            {
+                "steps": 26661,
+                "file_path": "results\\ExperimentoRedesNeuronales\\AgentActions\\AgentActions-26661.nn",
+                "reward": null,
+                "creation_time": 1651009966.3263848
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 26661,
+            "file_path": "results\\ExperimentoRedesNeuronales\\AgentActions.nn",
+            "reward": null,
+            "creation_time": 1651009966.3263848
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.20.0",
+        "tensorflow_version": "2.8.0"
+    }
+}

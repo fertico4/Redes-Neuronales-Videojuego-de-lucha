@@ -1,0 +1,75 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1650966580",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\jesus\\Desktop\\TFG\\Proyecto\\Experimento_Redes_Neuronales\\venv\\Scripts\\mlagents-learn config/AgentActions.yaml --run-id Test34 --time-scale 1",
+        "mlagents_version": "0.20.0",
+        "mlagents_envs_version": "0.20.0",
+        "communication_protocol_version": "1.1.0",
+        "tensorflow_version": "2.8.0",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1650966655"
+    },
+    "total": 74.3266597,
+    "count": 1,
+    "self": 0.010760599999997567,
+    "children": {
+        "run_training.setup": {
+            "total": 0.010674700000000037,
+            "count": 1,
+            "self": 0.010674700000000037
+        },
+        "TrainerController.start_learning": {
+            "total": 74.3052244,
+            "count": 1,
+            "self": 0.00026789999999721203,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 13.0851001,
+                    "count": 1,
+                    "self": 13.0851001
+                },
+                "TrainerController.advance": {
+                    "total": 60.4814016,
+                    "count": 1,
+                    "self": 2.0599999999149077e-05,
+                    "children": {
+                        "env_step": {
+                            "total": 60.481381,
+                            "count": 1,
+                            "self": 60.014289000000005,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 0.4670919999999974,
+                                    "count": 1,
+                                    "self": 3.2899999997226814e-05,
+                                    "children": {
+                                        "TFPolicy.evaluate": {
+                                            "total": 0.46705910000000017,
+                                            "count": 1,
+                                            "self": 0.46705910000000017
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "TrainerController._save_models": {
+                    "total": 0.7384547999999995,
+                    "count": 1,
+                    "self": 0.005746499999986554,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.732708300000013,
+                            "count": 1,
+                            "self": 0.732708300000013
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

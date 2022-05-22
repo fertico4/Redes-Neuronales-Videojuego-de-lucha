@@ -1,0 +1,23 @@
+{
+    "AgentActions": {
+        "checkpoints": [
+            {
+                "steps": 5610,
+                "file_path": "results\\Test10\\AgentActions\\AgentActions-5610.nn",
+                "reward": -1.0,
+                "creation_time": 1650794132.933425
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5610,
+            "file_path": "results\\Test10\\AgentActions.nn",
+            "reward": -1.0,
+            "creation_time": 1650794132.933425
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.20.0",
+        "tensorflow_version": "2.8.0"
+    }
+}
